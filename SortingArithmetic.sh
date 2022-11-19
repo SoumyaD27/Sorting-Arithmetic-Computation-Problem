@@ -1,3 +1,6 @@
 #!/bin/bash
-echo "Welcome to Sorting Arithmetic Problems"
+
+read -p "Enter a first number: " a
+read -p "Enter a second number: " b
+read -p "Enter a thrid number: " c
 
