@@ -5,5 +5,5 @@ read -p "Enter a second number: " b
 read -p "Enter a thrid number: " c
 
 
-d=$(awk 'BEGIN {print '$c' + '$a' / '$c'}')
+d=$(awk 'BEGIN {print '$a' % '$b' + '$c'}')
 echo $d
